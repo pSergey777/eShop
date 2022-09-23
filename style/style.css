@@ -1,0 +1,101 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  height: 50px;
+  background-color: rgba(118, 118, 118, 0.6784313725);
+  z-index: 1;
+}
+
+.logo img {
+  width: 45px;
+}
+
+main {
+  height: 75vh;
+  font-family: "Pangolin", cursive;
+  width: 100%;
+  background-image: url(/img/4873152.jpg);
+  background-size: 100%;
+}
+
+.headder_button {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.cart-button {
+  background: whitesmoke;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: center;
+}
+
+.cart-button:hover {
+  transform: scalex(1.15);
+  transition: transform 0.5s;
+  border: 2px solid rgba(94, 94, 94, 0.9490196078);
+}
+
+.fa-solid,
+.fa-basket-shopping {
+  font-size: 25px;
+}
+
+.goods-list {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+}
+
+.img_size {
+  width: 210px;
+  height: 210px;
+}
+
+.goods-item {
+  width: 300px;
+  height: 350px;
+  box-shadow: 11px 14px 9px rgba(40, 38, 38, 0.1215686275), -2em 3px 3em 6px rgba(0, 0, 0, 0.0784313725);
+  border-radius: 10% 20%/10% 60%;
+  margin: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.goods-item:hover {
+  transform: scale(1.04);
+  background-color: rgba(128, 128, 128, 0.498);
+  transition-duration: 0.5s;
+}
+
+.button-item {
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 50% 4%/39% 50%;
+}
+
+.button-item:hover {
+  transform: scale(1.04);
+  background-color: rgba(94, 94, 94, 0.9490196078);
+  transition-duration: 0.7s;
+  color: white;
+  border-radius: 1% 30%/40% 50%;
+}
+
+footer {
+  height: 180px;
+  background-color: rgba(94, 94, 94, 0.9490196078);
+  z-index: 1;
+}/*# sourceMappingURL=style.css.map */
