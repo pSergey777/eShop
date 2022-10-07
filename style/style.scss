@@ -1,0 +1,141 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  height: 50px;
+  background-color: #767676ad;
+  z-index: 1;
+}
+
+.logo img {
+  width: 45px;
+}
+
+.background {
+  background-size: 100%;
+  background-image: url(../img/background.jpg);
+}
+
+main {
+  height: 76.9vh;
+  width: 100%;
+}
+
+.headder_button {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.goods-search {
+  border-radius: 10% 10%/100% 0%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cart-button {
+  background: whitesmoke;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: center;
+}
+
+.cart-button:hover {
+  transform: scalex(1.15);
+  transition: transform 0.5s;
+  border: 2px solid rgba(94, 94, 94, 0.9490196078);
+}
+
+.fa-solid,
+.fa-basket-shopping {
+  font-size: 25px;
+}
+
+.cart {
+  width: 700px;
+  height: 550px;
+  background-color: #fff;
+  border: 1px solid #000;
+  position: absolute;
+  z-index: 1;
+  top: 44px;
+  left: 515px;
+  background: rgba(255, 255, 255, 0.686);
+}
+
+.cart_close {
+  margin-top: 10px;
+  margin-left: 665px;
+  width: 10px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.goods-list {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+}
+
+.img_size {
+  width: 210px;
+  height: 210px;
+}
+
+.goods-item {
+  width: 300px;
+  height: 350px;
+  box-shadow: 11px 14px 9px #2826261f, -2em 3px 3em 6px #00000014;
+  border-radius: 10% 20%/10% 60%;
+  margin: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.goods-item:hover {
+  transform: scale(1.04);
+  background-color: rgba(128, 128, 128, 0.498);
+  transition-duration: 0.5s;
+}
+
+.button-item {
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 50% 4%/39% 50%;
+}
+
+.button-item:hover {
+  transform: scale(1.04);
+  background-color: rgba(94, 94, 94, 0.9490196078);
+  transition-duration: 0.7s;
+  color: white;
+  border-radius: 1% 30%/40% 50%;
+}
+
+.no_data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150px;
+}
+
+footer {
+  height: 180px;
+  background-color: #5e5e5ef2;
+  z-index: 1;
+}
